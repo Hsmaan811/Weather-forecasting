@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Weather</title>
+<link rel="stylesheet" href="weather.css" />
+</head>
+<body>
+
+<div class="page">
+
+  <nav class="nav">
+    <a class="brand" href="index.html"><span class="dot"></span>Skycast</a>
+    <div class="nav-links">
+      <a href="index.html">Now</a>
+      <a href="forecast.html" aria-current="page">7-Day</a>
+    </div>
+  </nav>
+
+  <section class="hero">
+    <p class="hero-eyebrow">// outlook</p>
+    <h1 id="place-heading">7-day forecast</h1>
+    <p class="sub" id="place-sub">Highs, lows and wind for the week ahead.</p>
+
+    <form id="search-form" class="search-row" autocomplete="off">
+      <input type="text" id="city-input" placeholder="Search a city, e.g. Chandigarh" aria-label="City name" />
+      <button type="submit" class="btn">Search</button>
+      <button type="button" class="btn btn-secondary" id="locate-btn" title="Use my location">📍</button>
+    </form>
+    <p class="search-status" id="search-status"></p>
+
+    <div class="recent-chips" id="recent-chips"></div>
+  </section>
+
+  <div id="content"></div>
+
+  <footer>
+    <span>Data: open-meteo.com — no API key needed</span>
+    <span id="clock"></span>
+  </footer>
+
+</div>
+
+<script src="weathscript.js"></script>
+</body>
+</html> 
