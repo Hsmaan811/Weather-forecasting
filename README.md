@@ -1,9 +1,4 @@
-# Weather-forecasting
 # Skycast: Weather Web Application
-
-Here is a comprehensive README and project description based on the provided source code.
-
-## Project Description
 
 Skycast is a responsive, browser-based weather application that provides live weather conditions and a 7-day forecast for any city. The application utilizes open-source APIs to pull live data without requiring the user to configure API keys. Built with HTML, CSS, and Vanilla JavaScript, Skycast offers a clean, card-based interface with a toggleable navigation system to switch between current weather data and upcoming weekly outlooks.
 
